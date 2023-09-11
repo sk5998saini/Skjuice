@@ -1,0 +1,54 @@
+.grid{
+    display: grid;
+    grid:'sachin sachin sachin . . '
+    'saurabh . . . .'
+    'vikas . . . .'
+    'kapil . . . .'
+    'ankit . . . .'
+    'bunty . . . .';
+    grid-gap: 20px;
+    border: 1px solid red;
+    padding: 10px;
+}
+.name1{
+    border: 2px solid red;
+    grid-area: sachin;
+}
+.name2{
+    border: 2px solid green;
+    grid-area: saurabh;
+}
+.name3{
+    border: 2px solid yellow;
+    grid-area: vikas;
+}
+.name4{
+    border: 2px solid blue;
+    grid-area: kapil;
+}
+.name5{
+    border: 2px solid black;
+    grid-area: ankit;
+}
+.name6{
+    border: 2px solid aqua;
+    grid-area: bunty;
+}
+.scroll{
+    height: 300px;
+    width: 400px;
+    background-color: red;
+    color: yellow;
+    overflow: auto;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 2px solid blue;
+    padding: 10px;
+    /* scrollbar-track-color: green; */
+    scrollbar-color: green;
+    /* scrollbar-arrow-color: crimson; */
+}
+.scroll:hover{
+    cursor: pointer;
+    /* scrollbar-color: aqua; */
+}
